@@ -1,0 +1,29 @@
+1655934792877	geckodriver	INFO	Listening on 127.0.0.1:63805
+1655934795928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\STAS\\AppData\\Local\\Temp\\rust_mozprofileVFjDvb"
+1655934796373	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\STAS\\AppData\\Local\\Temp\\rust_mozprofileVFjDvb\\search.json.mozlz4", (void 0)))
+1655934798320	Marionette	INFO	Listening on port 63827
+Read port: 63827
+1655934798444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655934806009	Marionette	INFO	Stopped listening on port 63827
+1655934819379	geckodriver	INFO	Listening on 127.0.0.1:63839
+1655934822405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\STAS\\AppData\\Local\\Temp\\rust_mozprofile8QJyLv"
+1655934822867	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\STAS\\AppData\\Local\\Temp\\rust_mozprofile8QJyLv\\search.json.mozlz4", (void 0)))
+1655934824859	Marionette	INFO	Listening on port 63861
+Read port: 63861
+1655934824978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1655729925, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1655729925, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1655934830810	Marionette	INFO	Stopped listening on port 63861
+[Parent 156784, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
