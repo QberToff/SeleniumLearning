@@ -32,9 +32,6 @@ def test_for_answer_form(browser, pages):
     )
     button.click()
     hint = WebDriverWait(browser,10).until(EC.visibility_of_element_located((By.XPATH, "//*[@class='smart-hints__hint']")))
-    try:
-        assert hint.text == "Correct!"
-    except AssertionError:
-        message += hint.text
-
-
+    correct_message = "Correct!"
+    assert hint.text != correct_message
+    message += hint.text
